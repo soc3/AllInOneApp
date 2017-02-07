@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sushantoberoi.netcamp_project">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:launchMode="singleTop"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second" />
+        <activity android:name=".Third" />
+        <activity android:name=".Fourth" />
+        <activity android:name=".Fifth" />
+        <activity android:name=".Sixth" />
+        <activity android:name=".Seventh" />
+        <activity android:name=".Eight" />
+        <activity android:name=".Ninth" />
+        <activity android:name=".Tenth" />
+        <activity android:name=".Eleventh" />
+        <activity android:name=".Twelfth" />
+        <activity android:name=".Thirteen" />
+        <activity android:name=".Fourteen" />
+        <activity android:name=".Fifteen" />
+        <activity android:name=".Sixteen" />
+
+        <service android:name=".MusicService" />
+
+        <activity android:name=".New" />
+        <activity android:name=".Seventeen"></activity>
+    </application>
+
+</manifest>
