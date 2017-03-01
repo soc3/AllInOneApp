@@ -4,3 +4,6 @@ This app contains a music player with all basic features and fetching the songs 
 cricket (database work), sensors to play pause song on shaking and many other things.
 
 To register: you will needed to generate an otp.
+------------------------------------------------------------------------------
+
+For Hugs and Bugs drop a mail at sushantoberoi3@gmail.com
